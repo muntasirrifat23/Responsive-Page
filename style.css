@@ -336,16 +336,21 @@ button{
     }
     .header img{
         margin-bottom: 20px;
+       
     }
     .manu{
-        margin-left: 120px;
-        margin-top: 5px;
+        margin-left: 350px;
+        margin-top: 15px;
         text-align: right;
         display: grid;
         grid-template-columns: repeat(1,1fr);
         flex-direction: column;
     }
+    .manu-content{
+        margin-right: 0%;
+    }
     .section-title{
         margin-left:10px;
     }
+    
 }
