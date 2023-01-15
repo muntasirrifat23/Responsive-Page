@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+/* .........Header Start........... */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+.head{
+    display:flex;
+    justify-content: space-between;
+}
+.section-title{
+    font-size:35px;
+    font-weight: 800;
+    color: #131313;;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.manu{
+    display: flex;
+    font-size: 20px;
+    margin-right: 150px;
+    margin-top: 80px;
+}
+.manu-content{
+    margin-right: 30px;
+}
+
+.brand{
+    margin-top: 70px;
+    text-align: center;
+}
+.b-text{
+    font-size: 65px;
+    font-weight: 700;
+}
+.b-small-text{
+    text-align: center;
+    color: #727272;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.explore{
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    height: 60px;
+    width: 160px;
+    text-align: center;
+    margin-top: 20px;
+}
+.header-btn{
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+
+/* ..........Quick.......... */
+.images{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.teams{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 180px;
+    border-radius: 10px;
+    
+}
+.team{
+    width: 242px;
+    height: 242px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.team-head{
+  margin-top: 150px;
+   margin-right: 200px;
+   font-size: 25px;
+}
+.quick{
+    color: #727272;
+}
+.of{
+    color: #131313;
+}
+.feature{
+    text-align: left;
+    color: #FF900E;
+    font-size: 35px;
+    font-weight: 700;
+}
+.team-small{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+}
+.there, .but, .humour{
+    color: #727272;
+}
+
+/*----------Features---------- */
+.feature{
+    display: flex;
+    justify-content: space-between;
+}
+.feature-first{
+    margin-left:180px ;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.f-head{
+    color: black;
+    margin-left: 10px;
+    
+}
+.border{
+    border-left: 5px solid #FF900E;
+}
+.f-article{
+    font-size: 15px;
+    color: #727272;
+    margin-top: 15px;
+}
+
+.desktop{
+    width: 452px;
+    height: 110px;
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 18px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    color: #131313;
+}
+.desk-article{
+    font-size: 14px;
+    color: #727272;
+    margin-top: 8px;
+}
+
+.feature-img{
+    margin-top: 60px;
+    border-radius: 15px;
+    margin-left: 60px;
+    margin-right: 180px;
+}
+button{
+    height: 100px;
+    width: 260px;
+    background-color: #FF900E;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.year{
+    font-size: 50px;
+   font-weight: 700; 
+   color: #FFFFFF;
+}
+.exp{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+
+/* ----------Some Facts---------- */
+.fact-head{
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 180px;
+}
+.fact-article{
+    font-size: 14px;
+    color: #727272;
+    margin-top: 8px;
+    margin-left: 180px;
+}
+.fact{
+    margin-bottom: 50px;
+}
+
+
+/* ----------Icon---------- */
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.icon{
+    text-align: center;
+    border: 1px solid #FF900E;
+    padding: 40px;
+    border-radius: 10px;
+}
+.number{
+    font-size: 45px;
+    font-weight: 700;
+    color: #424242;
+}
+.icon-text{
+    color: #727272;
+}
+   
+
+/* ---------Sponspors---------- */
+.sponspors{
+    margin-top: 120px;
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
+}
+.spons-head{
+    font-size: 35px;
+    font-weight: 700px;
+}
+.spons-title{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+/* ----------Browser---------- */
+.browser{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.color{
+    height: 30px;
+    width: 100px;
+    webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/* Footer */
+.footer{
+    margin-top: 110px;
+    margin-left: 180px;
+    margin-right: 180px;
+    text-align: center;
+    background-color: #FFF4E7;
+    width: 80%;
+    height: 80px;
+    padding: 10px;
+}
+.footer-text{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+
+/* Media Quere */
+@media only screen and (max-width:480px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .teams, .team-head{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team{
+        flex-direction: column;
+    }
+    .team-head{
+        text-align: center;
+    }
+    .images, .feature{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+  
+   .fact{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0px;
+   }
+    .icons{
+        margin-right: 0px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column;
+    }
+    .icon{
+        gap: 15px;
+        margin-top: 15px;
+        margin-right: 15px;
+    }
+    .browser{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        flex-direction: column-reverse;
+    }
+    .browser img{
+        margin-top: 20px;
+    }
+    .footer, .sponspors, .team-head, .team-small, .feature-first, .fact-head, .fact-article, .quick, .head{
+        width: 100%;
+    }
+    .browser{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .color{
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    
+    .header{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background: rgba(255, 144, 14, 0.1);
+    }
+    .header img{
+        margin-bottom: 20px;
+    }
+    .manu{
+        margin-left: 120px;
+        margin-top: 5px;
+        text-align: right;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+    }
+    .section-title{
+        margin-left:10px;
+    }
+}
